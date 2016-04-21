@@ -1,4 +1,4 @@
-package com.gpl.qqslidingmenu;
+﻿package com.gpl.qqslidingmenu;
 
 import java.util.Random;
 
@@ -31,9 +31,9 @@ public class MainActivity extends Activity{
         setContentView(R.layout.activity_main);
         final ListView menu_listview = (ListView) findViewById(R.id.menu_listview);
         ListView main_listview = (ListView) findViewById(R.id.main_listview);
-        SlidingMenu slideMenu = (SlidingMenu) findViewById(R.id.slideMenu);
+        SlidingMenu slidingMenu = (SlidingMenu) findViewById(R.id.slideMenu);
     	final ImageView iv_head = (ImageView) findViewById(R.id.iv_head);
-    	slideMenu.setOnDragStateChangeListener(new OnDragStateChangeListener() {
+    	slidingMenu.setOnDragStateChangeListener(new OnDragStateChangeListener() {
 			
 			@Override
 			public void onOpen() {
